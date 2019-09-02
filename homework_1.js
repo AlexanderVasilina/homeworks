@@ -18,8 +18,8 @@ if (sum !== null) {
 
 while (sum) {
     +prompt('enter number');
-    prompt('enter +'); +
-    prompt('enter number');
+    prompt('enter +'); 
+    +prompt('enter number');
     alert('result: ' + sum);
     break;
 }
