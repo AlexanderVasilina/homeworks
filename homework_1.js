@@ -21,4 +21,5 @@ while (sum) {
     prompt('enter +'); +
     prompt('enter number');
     alert('result: ' + sum);
+    break;
 }
