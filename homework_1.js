@@ -1,25 +1,11 @@
 'use strict';
 
-var a = +prompt('enter number');
-var o = prompt('enter +');
-var b = +prompt('enter number');
+var a = +prompt('enter firts number');
+var b = +prompt('enter second number');
 
-var sum = null;
+var res = null;
 
-if (o === '+') {
-    sum = a + b;
-} else if (o !== '+') {
-    alert('enter only +');
+function Show() {
+    alert((a * a) + (b * b));
 }
-
-if (sum !== null) {
-    alert('result: ' + sum);
-}
-
-while (sum) {
-    +prompt('enter number');
-    prompt('enter +'); 
-    +prompt('enter number');
-    alert('result: ' + sum);
-    break;
-}
+Show()
